@@ -5,6 +5,8 @@ import Navber from './component/Navber';
 import RestartButton from './component/RestartButton'
 import Result from './component/Result';
 import Section1 from './component/Section1';
+import Section2 from './component/Section2';
+import Section3 from './component/Section3';
 import UseTypings from './component/UseTypings';
 import useEngine from './hooks/useEngine';
 import {calculateAccuracyPercentage} from './utils/helpers'
@@ -24,6 +26,10 @@ function App() {
 
       <div className='mb-2'>
         <Banner></Banner>
+      </div>
+
+      <div className='mb-2'>
+        <Section2></Section2>
       </div>
 
    <div  className=' mx-4 pt-2 grid place-items-center bg-slate-800 px-4 tracking-wider font-mono'>
@@ -58,8 +64,11 @@ function App() {
      
     </>
 
+    <Section3></Section3>
+
       <Section1></Section1>
 
+    
      <Footer></Footer>
    </div>
   );
@@ -80,7 +89,12 @@ const GeneratedWords = ({words}: {words:string}) =>{
 }
 
 const CoundownTimer = ({timeLeft}: {timeLeft:number})=>{
-   return <div className=' text-yellow-500 font-medium'> Time: {timeLeft} </div>
+   return <div>
+       <div> 
+      <h1 className='text-indigo-500 mb-5 mt-3 text-3xl '> Test your typing skills</h1>
+       </div>
+    <div className=' text-yellow-500 font-medium text-center'> Time: {timeLeft} </div>
+   </div>
 }
 
 
