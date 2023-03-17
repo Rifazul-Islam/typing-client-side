@@ -5,7 +5,7 @@ const Section3 = () => {
 
 <div className='bg-slate-500 mx-4 pt-4 pb-5 mt-1 '> 
 
-<h2 className='text-5xl  ml-2 text-white'> Recent articles  </h2>
+<h2 className='text-3xl  ml-2 text-white'> Recent articles  </h2>
  <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-7 mx-4' >
          
 <div className="card card-compact  bg-neutral text-neutral-content shadow-xl">

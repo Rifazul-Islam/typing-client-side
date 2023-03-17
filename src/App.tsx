@@ -91,9 +91,9 @@ const GeneratedWords = ({words}: {words:string}) =>{
 const CoundownTimer = ({timeLeft}: {timeLeft:number})=>{
    return <div>
        <div> 
-      <h1 className='text-indigo-500 mb-5 mt-3 text-3xl '> Test your typing skills</h1>
+      <h1 className='text-green-500 mb-5 mt-3 text-5xl '> Test your typing skills</h1>
        </div>
-    <div className=' text-yellow-500 font-medium text-center'> Time: {timeLeft} </div>
+    <div className=' text-yellow-500 font-medium text-center text-4xl'> Time: {timeLeft} </div>
    </div>
 }
 

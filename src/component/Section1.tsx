@@ -17,7 +17,7 @@ const Section1 = () => {
     <h2 className="card-title text-3xl">Courses !</h2>
     <p>in-depth knowledge thats easy to apply.</p>
     <div className="card-actions justify-end">
-      <button className="text-indigo-500 text-2xl">check courses</button>
+      <button className="text-green-500 text-2xl">Check Courses</button>
      
     </div>
   </div>
@@ -28,7 +28,7 @@ const Section1 = () => {
     <h2 className="card-title text-3xl"> Guides !</h2>
     <p> Quick study with compprehensive on-pagers .</p>
     <div className="card-actions justify-end">
-      <button className="text-indigo-500 text-2xl"> Browse guides</button>
+      <button className="text-green-500 text-2xl"> Browse Guides</button>
      
     </div>
   </div>
@@ -39,7 +39,7 @@ const Section1 = () => {
     <h2 className="card-title text-3xl "> Email Templates !</h2>
     <p> Task-oriented cheat sheets.</p>
     <div className="card-actions justify-end">
-      <button className="text-indigo-500 text-2xl">See templates </button>
+      <button className="text-green-500 text-2xl">See Templates </button>
      
     </div>
   </div>
