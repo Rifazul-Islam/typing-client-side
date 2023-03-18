@@ -9,7 +9,10 @@ import Section2 from './component/Section2';
 import Section3 from './component/Section3';
 import UseTypings from './component/UseTypings';
 import useEngine from './hooks/useEngine';
+
+
 import {calculateAccuracyPercentage} from './utils/helpers'
+
 
 
 
@@ -17,8 +20,11 @@ function App() {
 
  const {state, words,timeLeft, typed, errors,restart,totalTyped} = useEngine();
 
+
   return (
+    
    <div>
+
      <>
       <div className='pt-2'>
       <Navber></Navber>
@@ -70,6 +76,7 @@ function App() {
 
     
      <Footer></Footer>
+ 
    </div>
   );
 };
@@ -80,6 +87,9 @@ const WordsContainer = ({children}: {children : React.ReactNode}) => {
     <div className="relative text-3xl max-w-xl leading-relaxed
      break-all mt-3">
            {children}
+
+
+           
     </div>
   )
 }

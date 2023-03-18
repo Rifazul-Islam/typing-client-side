@@ -1,11 +1,11 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 const Navber = () => {
   const itemsMenu = <>
                  
           <li > Home </li>
           <li className='mx-5'> Contact </li>
-          <li> Blog </li>
+      <li> Blog  </li> 
 
   
 </>
