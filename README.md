@@ -1,3 +1,21 @@
+
+# Website Name Typing Test
+ ## Webwite live and firebase deploy link : (https://typing-speed-test-4aceb.web.app/) 
+
+ #  Website description : 
+  * first create react app instal 
+  * firebase new create new projects
+  * framwork use tailwindcss and desi
+  * new technology use TypeScript
+  *  Features : Actually this site is  typing test related system is used.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
