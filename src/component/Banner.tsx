@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div  className='mx-4 mt-1 bg-slate-800 h-[550px]'>
+        <div className='mx-4 mt-1 bg-slate-800 h-[550px]'>
         <div className="hero   ">
        <div className="hero-content flex-col lg:flex-row">
          <img className=' w-1/2' src="https://www.ratatype.com/static/i/retina/certification-hand@2x.webp" alt='#' />

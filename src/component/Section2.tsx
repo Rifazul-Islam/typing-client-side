@@ -22,7 +22,11 @@ const Section2 = () => {
       
     <div>
       <h1 className="text-4xl font-bold">How to type faster? Typing speed test for customer support!</h1>
-      <p className="py-6">How to type faster? Typing speed test for customer support.</p>
+      
+      <p className="py-6 text-1xl ">Take a deep breath, relax your fingers,
+       and take it slow. You need to be focused and not annoyed when attempting
+        the typing speed test. The best thing you can do to start typing faster 
+        is to type more.</p>
       <button className="btn btn-primary">Get Started</button>
     </div>
   </div>

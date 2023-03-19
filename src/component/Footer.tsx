@@ -7,7 +7,7 @@ const Footer = () => {
   <div>
  
       <img className='w-20' src=' https://www.typingpal.com/user/themes/taptouche/images/pastille-methode.svg' alt=''/>
-        <p>Typing Industries Ltd.<br/>Providing reliable tech since 2023</p>
+      <p>Typing Industries Ltd.<br/>Providing reliable tech since 2023</p>
   </div> 
   <div>
     <span className="footer-title">Social</span> 

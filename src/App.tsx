@@ -9,8 +9,6 @@ import Section2 from './component/Section2';
 import Section3 from './component/Section3';
 import UseTypings from './component/UseTypings';
 import useEngine from './hooks/useEngine';
-
-
 import {calculateAccuracyPercentage} from './utils/helpers'
 
 
